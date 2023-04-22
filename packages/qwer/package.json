@@ -1,0 +1,32 @@
+{
+  "version": "0.0.1",
+  "name": "@qwer/qwer",
+  "private": true,
+  "packageManager": "yarn@3.4.1",
+  "main": "dist/cjs",
+  "module": "dist/esm",
+  "module:jsx": "dist/jsx",
+  "types": "./types/index",
+  "files": [
+    "types",
+    "css",
+    "dist"
+  ],
+  "sideEffects": [
+    "*.css"
+  ],
+  "scripts": {
+    "build": "tamagui-build",
+    "build:watch": "tamagui-build --watch"
+  },
+  "dependencies": {
+    "@tamagui/animations-css": "^1.15.31",
+    "@tamagui/animations-react-native": "^1.15.32",
+    "@tamagui/core": "^1.15.31",
+    "@tamagui/react-native-media-driver": "^1.15.31",
+    "@tamagui/shorthands": "^1.15.31"
+  },
+  "devDependencies": {
+    "@tamagui/build": "^1.15.31"
+  }
+}

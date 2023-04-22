@@ -1,0 +1,21 @@
+{
+  "name": "solito-blank",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@types/react": "^18.0.17",
+    "@types/react-native": "^0.69.5",
+    "eslint": "^8.21.0",
+    "turbo": "^1.4.2",
+    "typescript": "^4.7.4"
+  },
+  "scripts": {
+    "native": "TAMAGUI_TARGET=native && cd apps/expo && yarn start",
+    "native:android": "TAMAGUI_TARGET=native && cd apps/expo && yarn android",
+    "web": "TAMAGUI_TARGET=web && cd apps/next && yarn next"
+  },
+  "packageManager": "yarn@3.4.1"
+}
