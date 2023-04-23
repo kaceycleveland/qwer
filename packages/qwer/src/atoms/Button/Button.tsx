@@ -1,4 +1,4 @@
-import { styled } from '@tamagui/core'
+import { styled } from 'tamagui'
 import { Box } from '../Box'
 
 export const Button = styled(Box, {

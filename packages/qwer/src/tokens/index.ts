@@ -1,4 +1,4 @@
-import { createTokens } from '@tamagui/core'
+import { createTokens } from 'tamagui'
 
 import { colors as color } from './colors'
 import { radius } from './radius'

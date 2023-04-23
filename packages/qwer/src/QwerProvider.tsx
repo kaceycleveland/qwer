@@ -1,4 +1,4 @@
-import { TamaguiProvider, TamaguiProviderProps } from '@tamagui/core'
+import { TamaguiProvider, TamaguiProviderProps } from 'tamagui'
 
 import { qwerThemeConfig } from './config'
 

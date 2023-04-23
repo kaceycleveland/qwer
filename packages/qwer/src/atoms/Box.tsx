@@ -1,4 +1,4 @@
-import { styled, Stack } from '@tamagui/core'
+import { styled, Stack } from 'tamagui'
 import { getElevation } from './utils/getElevation'
 
 export const fullscreenStyle = {

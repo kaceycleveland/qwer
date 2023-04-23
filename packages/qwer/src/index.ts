@@ -1,5 +1,5 @@
 export * from './QwerProvider'
 export * from './config'
 
-export { Stack, Text } from '@tamagui/core'
+export { Stack, Text, Button, Sheet } from 'tamagui'
 export * from './atoms'

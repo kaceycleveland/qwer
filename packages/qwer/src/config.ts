@@ -1,20 +1,16 @@
-import { createFont, createTamagui } from '@tamagui/core'
+import { createFont, createTamagui } from 'tamagui'
 import { createMedia } from '@tamagui/react-native-media-driver'
 import { shorthands } from '@tamagui/shorthands'
 
 import { themes } from './themes'
 import { tokens, animations } from './tokens'
+import { size } from './tokens/size'
 
 // TODO Style out the fonts
 
 const interFont = createFont({
   family: 'Inter, Helvetica, Arial, sans-serif',
-  size: {
-    1: 12,
-    2: 14,
-    3: 15,
-    // ...
-  },
+  size,
   lineHeight: {
     1: 17,
     2: 22,
@@ -70,6 +66,6 @@ export const qwerThemeConfig = createTamagui({
 
 export type AppConfig = typeof qwerThemeConfig
 
-declare module '@tamagui/core' {
+declare module 'tamagui' {
   interface TamaguiCustomConfig extends AppConfig {}
 }
